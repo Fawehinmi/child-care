@@ -402,6 +402,17 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   border: 0;
 }
 
+.logo-header{
+  color: rgb(254,127,76);
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.office-hrs{
+  color: white;
+  /* text-align: center; */
+  margin: 10px 0px;
+}
+
 .tp-btn {
   display: inline-block;
   background-color: var(--tp-common-orange);
@@ -1890,9 +1901,29 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-family: var(--tp-ff-heading);
   line-height: 1.2;
 }
+.tp-section-title-2 {
+  font-size: 40px;
+  color: var(--tp-theme-1);
+  font-weight: 800;
+  font-family: var(--tp-ff-heading);
+  line-height: 1.2;
+}
+.tp-section-title-3 {
+  font-size: 30px;
+  color: var(--tp-theme-1);
+  font-weight: 800;
+  font-family: var(--tp-ff-heading);
+  line-height: 1.2;
+}
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-section-title {
     font-size: 45px;
+  }
+  .tp-section-title-2 {
+    font-size: 35px;
+  }
+  .tp-section-title-3 {
+    font-size: 25px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
