@@ -402,7 +402,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   border: 0;
 }
 
-.logo-header{
+.logo-header, .footer-logo{
   color: rgb(254,127,76);
   margin-bottom: 0px;
   font-size: 20px;
