@@ -412,7 +412,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   /* text-align: center; */
   margin: 10px 0px;
 }
-
+.logo-img{
+  height: 80px;
+  width: 100px;
+}
 .tp-btn {
   display: inline-block;
   background-color: var(--tp-common-orange);
